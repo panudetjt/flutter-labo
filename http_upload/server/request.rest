@@ -1,0 +1,10 @@
+POST http://localhost:8080/upload HTTP/1.1
+content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="lovely-cat.jpg"
+Content-Type: image/jpeg
+
+< ./lovely-cat.jpg
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
